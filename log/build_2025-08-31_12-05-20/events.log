@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (te_demo) JobQueued: {'identifier': 'te_demo', 'dependencies': OrderedDict()}
+[0.000293] (te_demo) JobStarted: {'identifier': 'te_demo'}
+[0.015609] (te_demo) JobProgress: {'identifier': 'te_demo', 'progress': 'cmake'}
+[0.017059] (te_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/solar/myRos2/src/te_demo', '-DCMAKE_INSTALL_PREFIX=/home/solar/myRos2/install/te_demo'], 'cwd': '/home/solar/myRos2/build/te_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'solar'), ('SSH_CLIENT', '192.168.124.1 58283 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/solar'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/solar/myRos2/src/te_demo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'solar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/solar/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/solar/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/solar/myRos2/build/te_demo'), ('CONDA_EXE', '/home/solar/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.124.1 58283 192.168.124.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099111] (-) TimerEvent: {}
+[0.129781] (te_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199992] (-) TimerEvent: {}
+[0.234478] (te_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.247003] (te_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300492] (-) TimerEvent: {}
+[0.401148] (te_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401571] (-) TimerEvent: {}
+[0.413053] (te_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.414274] (te_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.414736] (te_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.420619] (te_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.503023] (-) TimerEvent: {}
+[0.579402] (te_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.589497] (te_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.589808] (te_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.590218] (te_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.593528] (te_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.604102] (-) TimerEvent: {}
+[0.705368] (-) TimerEvent: {}
+[0.807062] (-) TimerEvent: {}
+[0.848458] (te_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.907543] (-) TimerEvent: {}
+[1.005936] (te_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.007969] (-) TimerEvent: {}
+[1.009850] (te_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.020297] (te_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.080409] (te_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.108499] (-) TimerEvent: {}
+[1.211364] (-) TimerEvent: {}
+[1.314030] (-) TimerEvent: {}
+[1.418309] (-) TimerEvent: {}
+[1.519983] (-) TimerEvent: {}
+[1.566731] (te_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.620578] (-) TimerEvent: {}
+[1.721643] (-) TimerEvent: {}
+[1.823048] (-) TimerEvent: {}
+[1.886651] (te_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.923886] (-) TimerEvent: {}
+[2.025053] (-) TimerEvent: {}
+[2.126710] (-) TimerEvent: {}
+[2.227827] (-) TimerEvent: {}
+[2.282673] (te_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.321596] (te_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.326552] (te_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.328195] (-) TimerEvent: {}
+[2.379621] (te_demo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.379844] (te_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.380132] (te_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.380212] (te_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.415035] (te_demo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.429126] (-) TimerEvent: {}
+[2.481640] (te_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.529535] (-) TimerEvent: {}
+[2.557613] (te_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.564422] (te_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.571563] (te_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.630343] (-) TimerEvent: {}
+[2.639769] (te_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[2.663127] (te_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/solar/myRos2/build/te_demo\n'}
+[2.673025] (te_demo) CommandEnded: {'returncode': 0}
+[2.676564] (te_demo) JobProgress: {'identifier': 'te_demo', 'progress': 'build'}
+[2.676748] (te_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/solar/myRos2/build/te_demo', '--', '-j2', '-l2'], 'cwd': '/home/solar/myRos2/build/te_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'solar'), ('SSH_CLIENT', '192.168.124.1 58283 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/solar'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/solar/myRos2/src/te_demo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'solar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/solar/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/solar/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/solar/myRos2/build/te_demo'), ('CONDA_EXE', '/home/solar/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.124.1 58283 192.168.124.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.730888] (-) TimerEvent: {}
+[2.757340] (te_demo) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.779912] (te_demo) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.831264] (-) TimerEvent: {}
+[2.933898] (-) TimerEvent: {}
+[3.034622] (-) TimerEvent: {}
+[3.135066] (-) TimerEvent: {}
+[3.236189] (-) TimerEvent: {}
+[3.298022] (te_demo) StdoutLine: {'line': b'[  6%] Built target te_demo__cpp\n'}
+[3.329397] (te_demo) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/te_demo__rosidl_generator_c.dir/rosidl_generator_c/te_demo/srv/detail/add__functions.c.o\x1b[0m\n'}
+[3.337076] (-) TimerEvent: {}
+[3.367564] (te_demo) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_te_demo\n'}
+[3.390703] (te_demo) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.437780] (-) TimerEvent: {}
+[3.539506] (-) TimerEvent: {}
+[3.548221] (te_demo) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libte_demo__rosidl_generator_c.so\x1b[0m\n'}
+[3.626123] (te_demo) StdoutLine: {'line': b'[ 16%] Built target te_demo__rosidl_generator_c\n'}
+[3.640313] (-) TimerEvent: {}
+[3.651200] (te_demo) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.740943] (-) TimerEvent: {}
+[3.822456] (te_demo) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/te_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/te_demo/srv/detail/dds_fastrtps/add__type_support.cpp.o\x1b[0m\n'}
+[3.841548] (-) TimerEvent: {}
+[3.944765] (-) TimerEvent: {}
+[4.046854] (-) TimerEvent: {}
+[4.127822] (te_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/te_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/te_demo/srv/detail/add__type_support.cpp.o\x1b[0m\n'}
+[4.147364] (-) TimerEvent: {}
+[4.248371] (-) TimerEvent: {}
+[4.351319] (-) TimerEvent: {}
+[4.454992] (-) TimerEvent: {}
+[4.556940] (-) TimerEvent: {}
+[4.658323] (-) TimerEvent: {}
+[5.075025] (-) TimerEvent: {}
+[5.176602] (-) TimerEvent: {}
+[5.278300] (-) TimerEvent: {}
+[5.379925] (-) TimerEvent: {}
+[5.455813] (te_demo) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libte_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.480313] (-) TimerEvent: {}
+[5.581907] (-) TimerEvent: {}
+[5.605806] (te_demo) StdoutLine: {'line': b'[ 29%] Built target te_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[5.618180] (te_demo) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libte_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.630423] (te_demo) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.682659] (-) TimerEvent: {}
+[5.698909] (te_demo) StdoutLine: {'line': b'[ 35%] Built target te_demo__rosidl_typesupport_introspection_cpp\n'}
+[5.783144] (-) TimerEvent: {}
+[5.885142] (-) TimerEvent: {}
+[5.988362] (-) TimerEvent: {}
+[6.000340] (te_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/te_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/te_demo/srv/add__type_support.cpp.o\x1b[0m\n'}
+[6.071177] (te_demo) StdoutLine: {'line': b'running egg_info\n'}
+[6.071574] (te_demo) StdoutLine: {'line': b'creating te_demo.egg-info\n'}
+[6.071671] (te_demo) StdoutLine: {'line': b'writing te_demo.egg-info/PKG-INFO\n'}
+[6.072374] (te_demo) StdoutLine: {'line': b'writing dependency_links to te_demo.egg-info/dependency_links.txt\n'}
+[6.072498] (te_demo) StdoutLine: {'line': b'writing top-level names to te_demo.egg-info/top_level.txt\n'}
+[6.072803] (te_demo) StdoutLine: {'line': b"writing manifest file 'te_demo.egg-info/SOURCES.txt'\n"}
+[6.075711] (te_demo) StdoutLine: {'line': b"reading manifest file 'te_demo.egg-info/SOURCES.txt'\n"}
+[6.076631] (te_demo) StdoutLine: {'line': b"writing manifest file 'te_demo.egg-info/SOURCES.txt'\n"}
+[6.090971] (-) TimerEvent: {}
+[6.135988] (te_demo) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_te_demo_egg\n'}
+[6.156636] (te_demo) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.191279] (-) TimerEvent: {}
+[6.292076] (-) TimerEvent: {}
+[6.393255] (-) TimerEvent: {}
+[6.421435] (te_demo) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libte_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.494076] (-) TimerEvent: {}
+[6.504128] (te_demo) StdoutLine: {'line': b'[ 45%] Built target te_demo__rosidl_typesupport_cpp\n'}
+[6.526421] (te_demo) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.586063] (te_demo) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/te_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/te_demo/srv/detail/add__type_support_c.cpp.o\x1b[0m\n'}
+[6.595978] (-) TimerEvent: {}
+[6.696799] (-) TimerEvent: {}
+[6.797478] (-) TimerEvent: {}
+[6.898628] (-) TimerEvent: {}
+[6.931410] (te_demo) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/te_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/te_demo/srv/detail/add__type_support.c.o\x1b[0m\n'}
+[6.999251] (te_demo) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libte_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.999451] (-) TimerEvent: {}
+[7.063650] (te_demo) StdoutLine: {'line': b'[ 58%] Built target te_demo__rosidl_typesupport_introspection_c\n'}
+[7.080844] (te_demo) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.100206] (-) TimerEvent: {}
+[7.125434] (te_demo) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libte_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.200899] (-) TimerEvent: {}
+[7.278752] (te_demo) StdoutLine: {'line': b'[ 64%] Built target te_demo__rosidl_typesupport_fastrtps_c\n'}
+[7.302706] (-) TimerEvent: {}
+[7.403994] (-) TimerEvent: {}
+[7.441024] (te_demo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/srv/add__type_support.cpp.o\x1b[0m\n'}
+[7.504983] (te_demo) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libte_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.505181] (-) TimerEvent: {}
+[7.589395] (te_demo) StdoutLine: {'line': b'[ 70%] Built target te_demo__rosidl_typesupport_c\n'}
+[7.605501] (-) TimerEvent: {}
+[7.634953] (te_demo) StdoutLine: {'line': b'[ 70%] Built target te_demo\n'}
+[7.680671] (te_demo) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.706289] (-) TimerEvent: {}
+[7.807917] (-) TimerEvent: {}
+[7.909318] (-) TimerEvent: {}
+[8.010126] (-) TimerEvent: {}
+[8.111398] (-) TimerEvent: {}
+[8.213811] (-) TimerEvent: {}
+[8.265504] (te_demo) StdoutLine: {'line': b'[ 74%] Built target te_demo__py\n'}
+[8.309574] (te_demo) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/te_demo__rosidl_generator_py.dir/rosidl_generator_py/te_demo/srv/_add_s.c.o\x1b[0m\n'}
+[8.314021] (-) TimerEvent: {}
+[8.415086] (-) TimerEvent: {}
+[8.517899] (-) TimerEvent: {}
+[8.619203] (-) TimerEvent: {}
+[8.629253] (te_demo) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/te_demo/libte_demo__rosidl_generator_py.so\x1b[0m\n'}
+[8.713402] (te_demo) StdoutLine: {'line': b'[ 80%] Built target te_demo__rosidl_generator_py\n'}
+[8.719381] (-) TimerEvent: {}
+[8.768248] (te_demo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/te_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/te_demo/_te_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.768869] (te_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/te_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/te_demo/_te_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.820192] (-) TimerEvent: {}
+[8.922162] (-) TimerEvent: {}
+[8.938352] (te_demo) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/te_demo/te_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.938775] (te_demo) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/te_demo/te_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.012115] (te_demo) StdoutLine: {'line': b'[ 93%] Built target te_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.012383] (te_demo) StdoutLine: {'line': b'[ 93%] Built target te_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[9.022632] (-) TimerEvent: {}
+[9.056045] (te_demo) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/te_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/te_demo/_te_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.124079] (-) TimerEvent: {}
+[9.228056] (-) TimerEvent: {}
+[9.230294] (te_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/te_demo/te_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.301367] (te_demo) StdoutLine: {'line': b'[100%] Built target te_demo__rosidl_typesupport_c__pyext\n'}
+[9.328137] (te_demo) CommandEnded: {'returncode': 0}
+[9.328766] (-) TimerEvent: {}
+[9.330288] (te_demo) JobProgress: {'identifier': 'te_demo', 'progress': 'install'}
+[9.348917] (te_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/solar/myRos2/build/te_demo'], 'cwd': '/home/solar/myRos2/build/te_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'solar'), ('SSH_CLIENT', '192.168.124.1 58283 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/solar'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/solar/myRos2/src/te_demo'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'solar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/solar/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/solar/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/solar/myRos2/build/te_demo'), ('CONDA_EXE', '/home/solar/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.124.1 58283 192.168.124.129 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.364434] (te_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.364766] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/rosidl_interfaces/te_demo\n'}
+[9.365267] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo\n'}
+[9.365788] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv\n'}
+[9.366003] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/add.h\n'}
+[9.366330] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail\n'}
+[9.366666] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.h\n'}
+[9.366849] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__struct.h\n'}
+[9.367407] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__functions.h\n'}
+[9.367606] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__functions.c\n'}
+[9.367682] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg\n'}
+[9.367784] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.369285] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/library_path.sh\n'}
+[9.369447] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/library_path.dsv\n'}
+[9.369518] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_generator_c.so\n'}
+[9.369659] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_generator_c.so" to ""\n'}
+[9.369728] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo\n'}
+[9.369837] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv\n'}
+[9.369905] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail\n'}
+[9.369970] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_fastrtps_c.h\n'}
+[9.370271] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg\n'}
+[9.370380] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.370495] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[9.371468] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.371703] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo\n'}
+[9.371779] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv\n'}
+[9.371843] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail\n'}
+[9.371904] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.c\n'}
+[9.372008] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_introspection_c.h\n'}
+[9.372406] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg\n'}
+[9.372484] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.372704] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_introspection_c.so\n'}
+[9.373427] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.373676] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_c.so\n'}
+[9.374281] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_c.so" to ""\n'}
+[9.374490] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo\n'}
+[9.374627] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv\n'}
+[9.374697] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail\n'}
+[9.374761] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__traits.hpp\n'}
+[9.375115] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__struct.hpp\n'}
+[9.375341] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__builder.hpp\n'}
+[9.375582] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.hpp\n'}
+[9.375802] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/add.hpp\n'}
+[9.376081] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg\n'}
+[9.376178] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.376591] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo\n'}
+[9.376780] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv\n'}
+[9.376855] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail\n'}
+[9.376955] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/dds_fastrtps\n'}
+[9.377767] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.378048] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg\n'}
+[9.379521] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.379935] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.380007] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.380071] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo\n'}
+[9.380133] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv\n'}
+[9.380512] (te_demo) StdoutLine: {'line': b'-- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail\n'}
+[9.380642] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.cpp\n'}
+[9.380768] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.381028] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[9.381345] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.381428] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_cpp.so\n'}
+[9.382489] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[9.382895] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/pythonpath.sh\n'}
+[9.383022] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/pythonpath.dsv\n'}
+[9.383244] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info\n'}
+[9.384238] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[9.384649] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[9.384895] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[9.385364] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[9.385696] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo\n'}
+[9.386705] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.386995] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/libte_demo__rosidl_generator_py.so\n'}
+[9.387498] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv\n'}
+[9.387717] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/__init__.py\n'}
+[9.387943] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_add_s.c\n'}
+[9.388399] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_add.py\n'}
+[9.388724] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/__init__.py\n'}
+[9.388934] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.389147] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.389762] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/_te_demo_s.ep.rosidl_typesupport_c.c\n'}
+[9.390044] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/_te_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.390505] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/_te_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.429487] (-) TimerEvent: {}
+[9.450273] (te_demo) StdoutLine: {'line': b"Listing '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo'...\n"}
+[9.450753] (te_demo) StdoutLine: {'line': b"Compiling '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/__init__.py'...\n"}
+[9.451118] (te_demo) StdoutLine: {'line': b"Listing '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv'...\n"}
+[9.451197] (te_demo) StdoutLine: {'line': b"Compiling '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/__init__.py'...\n"}
+[9.451316] (te_demo) StdoutLine: {'line': b"Compiling '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_add.py'...\n"}
+[9.458804] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.461173] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.461341] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.461433] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.461497] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.463334] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.463635] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_generator_py.so\n'}
+[9.464214] (te_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_generator_py.so" to ""\n'}
+[9.464654] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add.idl\n'}
+[9.465248] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add.srv\n'}
+[9.466480] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add_Request.msg\n'}
+[9.466625] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add_Response.msg\n'}
+[9.466889] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/package_run_dependencies/te_demo\n'}
+[9.467961] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/parent_prefix_path/te_demo\n'}
+[9.469264] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/ament_prefix_path.sh\n'}
+[9.469531] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/ament_prefix_path.dsv\n'}
+[9.469933] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/path.sh\n'}
+[9.470452] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/path.dsv\n'}
+[9.470845] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.bash\n'}
+[9.471497] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.sh\n'}
+[9.472015] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.zsh\n'}
+[9.472746] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.dsv\n'}
+[9.472836] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/package.dsv\n'}
+[9.473352] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/packages/te_demo\n'}
+[9.474673] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_cExport.cmake\n'}
+[9.475132] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.475842] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.476638] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.476832] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.477089] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.477914] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cExport.cmake\n'}
+[9.478260] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.479764] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_cppExport.cmake\n'}
+[9.480055] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.480137] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.480275] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.480683] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.480878] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cppExport.cmake\n'}
+[9.481449] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.481767] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_pyExport.cmake\n'}
+[9.481970] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.482192] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[9.482888] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.483428] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.483726] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.483913] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.484455] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.484752] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.484942] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demoConfig.cmake\n'}
+[9.485442] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demoConfig-version.cmake\n'}
+[9.485739] (te_demo) StdoutLine: {'line': b'-- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/package.xml\n'}
+[9.492517] (te_demo) CommandEnded: {'returncode': 0}
+[9.528481] (te_demo) JobEnded: {'identifier': 'te_demo', 'rc': 0}
+[9.530031] (-) EventReactorShutdown: {}

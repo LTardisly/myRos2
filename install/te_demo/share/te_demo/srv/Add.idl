@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from te_demo/srv/Add.srv
+// generated code does not contain a copyright notice
+
+
+module te_demo {
+  module srv {
+    struct Add_Request {
+      double length;
+
+      double width;
+    };
+    struct Add_Response {
+      double area;
+    };
+  };
+};

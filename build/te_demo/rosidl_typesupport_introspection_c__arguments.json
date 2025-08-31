@@ -1,0 +1,21 @@
+{
+  "package_name": "te_demo",
+  "output_dir": "/home/solar/myRos2/build/te_demo/rosidl_typesupport_introspection_c/te_demo",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/solar/myRos2/build/te_demo/rosidl_adapter/te_demo:srv/Add.idl",
+    "/home/solar/myRos2/build/te_demo/rosidl_adapter/te_demo:srv/Sum.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/solar/myRos2/build/te_demo/rosidl_adapter/te_demo/srv/Add.idl",
+    "/home/solar/myRos2/build/te_demo/rosidl_adapter/te_demo/srv/Sum.idl"
+  ]
+}

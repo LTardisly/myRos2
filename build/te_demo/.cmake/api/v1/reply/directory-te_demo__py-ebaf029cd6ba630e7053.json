@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "te_demo__py",
+		"source" : "/home/solar/myRos2/build/te_demo/te_demo__py"
+	}
+}

@@ -1,0 +1,209 @@
+[0.026s] Invoking command in '/home/solar/myRos2/build/te_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/solar/myRos2/build/te_demo -- -j2 -l2
+[0.073s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.276s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.285s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.772s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.514s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.514s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.534s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.553s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.553s] -- Added test 'lint_cmake' to check CMake code style
+[1.553s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.555s] -- Added test 'xmllint' to check XML markup files
+[1.558s] -- Configuring done
+[1.636s] -- Generating done
+[1.673s] -- Build files have been written to: /home/solar/myRos2/build/te_demo
+[1.725s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_generator_c[0m
+[1.748s] [  2%] Built target te_demo__cpp
+[1.753s] [ 12%] Built target te_demo__rosidl_generator_c
+[1.775s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_fastrtps_c[0m
+[1.804s] [ 23%] Built target te_demo__rosidl_typesupport_fastrtps_c
+[1.816s] [ 23%] Built target ament_cmake_python_copy_te_demo
+[1.832s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_introspection_c[0m
+[1.841s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_c[0m
+[1.858s] [ 33%] Built target te_demo__rosidl_typesupport_introspection_c
+[1.869s] [ 43%] Built target te_demo__rosidl_typesupport_c
+[1.885s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_fastrtps_cpp[0m
+[1.895s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_introspection_cpp[0m
+[1.917s] [ 53%] Built target te_demo__rosidl_typesupport_fastrtps_cpp
+[1.923s] [ 64%] Built target te_demo__rosidl_typesupport_introspection_cpp
+[1.943s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_cpp[0m
+[1.973s] [ 74%] Built target te_demo__rosidl_typesupport_cpp
+[2.015s] [ 74%] Built target te_demo
+[2.062s] [ 76%] Built target te_demo__py
+[2.085s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_generator_py[0m
+[2.113s] [ 84%] Built target te_demo__rosidl_generator_py
+[2.142s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.169s] [ 89%] Built target te_demo__rosidl_typesupport_fastrtps_c__pyext
+[2.192s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_introspection_c__pyext[0m
+[2.227s] [ 94%] Built target te_demo__rosidl_typesupport_introspection_c__pyext
+[2.251s] [35m[1mConsolidate compiler generated dependencies of target te_demo__rosidl_typesupport_c__pyext[0m
+[2.281s] [100%] Built target te_demo__rosidl_typesupport_c__pyext
+[2.319s] running egg_info
+[2.320s] writing te_demo.egg-info/PKG-INFO
+[2.321s] writing dependency_links to te_demo.egg-info/dependency_links.txt
+[2.321s] writing top-level names to te_demo.egg-info/top_level.txt
+[2.327s] reading manifest file 'te_demo.egg-info/SOURCES.txt'
+[2.327s] writing manifest file 'te_demo.egg-info/SOURCES.txt'
+[2.392s] [100%] Built target ament_cmake_python_build_te_demo_egg
+[2.420s] Invoked command in '/home/solar/myRos2/build/te_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/solar/myRos2/build/te_demo -- -j2 -l2
+[2.442s] Invoking command in '/home/solar/myRos2/build/te_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/solar/myRos2/build/te_demo
+[2.459s] -- Install configuration: ""
+[2.459s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/rosidl_interfaces/te_demo
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/add.h
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.h
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__struct.h
+[2.460s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__functions.c
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__struct.h
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__type_support.h
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__functions.h
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__functions.h
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__functions.c
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/sum.h
+[2.461s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg
+[2.462s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_generator_c__visibility_control.h
+[2.462s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/environment/library_path.sh
+[2.462s] -- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/library_path.dsv
+[2.463s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_generator_c.so
+[2.463s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__rosidl_typesupport_fastrtps_c.h
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_fastrtps_c.h
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_fastrtps_c.so
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv
+[2.464s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail
+[2.465s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.c
+[2.465s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__type_support.c
+[2.465s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__rosidl_typesupport_introspection_c.h
+[2.466s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_introspection_c.h
+[2.466s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg
+[2.467s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.467s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_introspection_c.so
+[2.467s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_c.so
+[2.467s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo
+[2.467s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv
+[2.468s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/sum.hpp
+[2.468s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail
+[2.468s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__struct.hpp
+[2.468s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__traits.hpp
+[2.468s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__traits.hpp
+[2.468s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__builder.hpp
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__struct.hpp
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__type_support.hpp
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__builder.hpp
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.hpp
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/add.hpp
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg
+[2.469s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.470s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo
+[2.470s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv
+[2.470s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail
+[2.470s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/dds_fastrtps
+[2.470s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_fastrtps_cpp.hpp
+[2.470s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__rosidl_typesupport_fastrtps_cpp.hpp
+[2.471s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg
+[2.471s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.471s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_fastrtps_cpp.so
+[2.471s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo
+[2.471s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv
+[2.472s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail
+[2.472s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__rosidl_typesupport_introspection_cpp.hpp
+[2.472s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__type_support.cpp
+[2.472s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/sum__type_support.cpp
+[2.473s] -- Up-to-date: /home/solar/myRos2/install/te_demo/include/te_demo/te_demo/srv/detail/add__rosidl_typesupport_introspection_cpp.hpp
+[2.473s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_introspection_cpp.so
+[2.473s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_typesupport_cpp.so
+[2.473s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/environment/pythonpath.sh
+[2.473s] -- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/pythonpath.dsv
+[2.473s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info
+[2.473s] -- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/top_level.txt
+[2.473s] -- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/dependency_links.txt
+[2.473s] -- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/PKG-INFO
+[2.473s] -- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo-0.0.1-py3.10.egg-info/SOURCES.txt
+[2.473s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/libte_demo__rosidl_generator_py.so
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/__init__.py
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_add_s.c
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_sum_s.c
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_sum.py
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv/_add.py
+[2.474s] -- Installing: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/__init__.py
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.474s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/_te_demo_s.ep.rosidl_typesupport_c.c
+[2.475s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/_te_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.475s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/_te_demo_s.ep.rosidl_typesupport_introspection_c.c
+[2.526s] Listing '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo'...
+[2.527s] Compiling '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/__init__.py'...
+[2.527s] Listing '/home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/srv'...
+[2.537s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.537s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.537s] -- Up-to-date: /home/solar/myRos2/install/te_demo/local/lib/python3.10/dist-packages/te_demo/te_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.538s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/libte_demo__rosidl_generator_py.so
+[2.538s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add.idl
+[2.538s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Sum.idl
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add.srv
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add_Request.msg
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Add_Response.msg
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Sum.srv
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Sum_Request.msg
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/srv/Sum_Response.msg
+[2.539s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/te_demo/server
+[2.540s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/te_demo/cli
+[2.540s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/te_demo/sum_server
+[2.540s] -- Up-to-date: /home/solar/myRos2/install/te_demo/lib/te_demo/sum_client
+[2.540s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/package_run_dependencies/te_demo
+[2.540s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/parent_prefix_path/te_demo
+[2.541s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/environment/ament_prefix_path.sh
+[2.541s] -- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/ament_prefix_path.dsv
+[2.541s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/environment/path.sh
+[2.541s] -- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/environment/path.dsv
+[2.541s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.bash
+[2.542s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.sh
+[2.542s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.zsh
+[2.542s] -- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/local_setup.dsv
+[2.542s] -- Installing: /home/solar/myRos2/install/te_demo/share/te_demo/package.dsv
+[2.542s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/ament_index/resource_index/packages/te_demo
+[2.543s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_cExport.cmake
+[2.543s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_cExport-noconfig.cmake
+[2.543s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[2.543s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.544s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cExport.cmake
+[2.544s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.544s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cExport.cmake
+[2.544s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cExport-noconfig.cmake
+[2.544s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_cppExport.cmake
+[2.545s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.545s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.546s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cppExport.cmake
+[2.546s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.546s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cppExport.cmake
+[2.546s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[2.546s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_pyExport.cmake
+[2.546s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/export_te_demo__rosidl_generator_pyExport-noconfig.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/rosidl_cmake-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_targets-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demoConfig.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/cmake/te_demoConfig-version.cmake
+[2.547s] -- Up-to-date: /home/solar/myRos2/install/te_demo/share/te_demo/package.xml
+[2.553s] Invoked command in '/home/solar/myRos2/build/te_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/solar/myRos2/build/te_demo

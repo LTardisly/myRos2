@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from te_demo/srv/Sum.srv
+// generated code does not contain a copyright notice
+
+
+module te_demo {
+  module srv {
+    struct Sum_Request {
+      double aa;
+
+      double bb;
+    };
+    struct Sum_Response {
+      double cc;
+    };
+  };
+};

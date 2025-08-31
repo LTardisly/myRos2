@@ -1,0 +1,4 @@
+source;share/te_demo/local_setup.bash
+source;share/te_demo/local_setup.dsv
+source;share/te_demo/local_setup.sh
+source;share/te_demo/local_setup.zsh
