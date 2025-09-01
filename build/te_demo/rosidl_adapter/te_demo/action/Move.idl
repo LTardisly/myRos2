@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from te_demo/action/Move.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module te_demo {
+  module action {
+    struct Move_Goal {
+      geometry_msgs::msg::PoseStamped target_pose;
+    };
+    struct Move_Result {
+      boolean success;
+    };
+    struct Move_Feedback {
+      float progress;
+    };
+  };
+};

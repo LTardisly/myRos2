@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/te_demo__cpp"
+  "rosidl_generator_cpp/te_demo/action/detail/move__builder.hpp"
+  "rosidl_generator_cpp/te_demo/action/detail/move__struct.hpp"
+  "rosidl_generator_cpp/te_demo/action/detail/move__traits.hpp"
+  "rosidl_generator_cpp/te_demo/action/detail/move__type_support.hpp"
+  "rosidl_generator_cpp/te_demo/action/move.hpp"
   "rosidl_generator_cpp/te_demo/srv/add.hpp"
   "rosidl_generator_cpp/te_demo/srv/detail/add__builder.hpp"
   "rosidl_generator_cpp/te_demo/srv/detail/add__struct.hpp"

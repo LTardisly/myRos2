@@ -2,6 +2,7 @@
   "package_name": "te_demo",
   "non_idl_tuples": [
     "/home/solar/myRos2/src/te_demo:srv/Add.srv",
-    "/home/solar/myRos2/src/te_demo:srv/Sum.srv"
+    "/home/solar/myRos2/src/te_demo:srv/Sum.srv",
+    "/home/solar/myRos2/src/te_demo:action/Move.action"
   ]
 }

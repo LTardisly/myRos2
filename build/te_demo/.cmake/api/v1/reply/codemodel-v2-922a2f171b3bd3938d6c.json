@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-74f72631d0b9201c5892.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "te_demo__py",
+					"jsonFile" : "directory-te_demo__py-ebaf029cd6ba630e7053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/solar/myRos2/build/te_demo/te_demo__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "te_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_te_demo_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_te_demo_egg-76c4fadc557442539441.json",
+					"name" : "ament_cmake_python_build_te_demo_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_te_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_te_demo-421aa7ad675efa51a0fc.json",
+					"name" : "ament_cmake_python_copy_te_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo-12e4ca4b7c37d612488d.json",
+					"name" : "te_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__cpp-f8eefa658aff8deaeafd.json",
+					"name" : "te_demo__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "te_demo__py::@d2c4a044b4bd97ca1d18",
+					"jsonFile" : "target-te_demo__py-d1d3bc00cd6f412c4f09.json",
+					"name" : "te_demo__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_generator_c-09396abcd35e7b50a1b1.json",
+					"name" : "te_demo__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_generator_py-eaad7ef2e3c1bd025c5f.json",
+					"name" : "te_demo__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_c-7345d48e72d4ac6bbcee.json",
+					"name" : "te_demo__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_c__pyext-99d7744725cd056eab3a.json",
+					"name" : "te_demo__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_cpp-da2545651bdf357e45be.json",
+					"name" : "te_demo__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_fastrtps_c-6a9834908c8d3e011246.json",
+					"name" : "te_demo__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_fastrtps_c__pyext-5a485153f984d503447b.json",
+					"name" : "te_demo__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_fastrtps_cpp-11a1bee080c4a0704797.json",
+					"name" : "te_demo__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_introspection_c-aeffb252f053444dfca1.json",
+					"name" : "te_demo__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_introspection_c__pyext-6387c85a4e8beda9c050.json",
+					"name" : "te_demo__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo__rosidl_typesupport_introspection_cpp-d6afe3e8b804b0bf77a6.json",
+					"name" : "te_demo__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "te_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-te_demo_uninstall-1eb8ce5705e42ac6cd83.json",
+					"name" : "te_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6da104a1afd78cf42cf9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/solar/myRos2/build/te_demo",
+		"source" : "/home/solar/myRos2/src/te_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

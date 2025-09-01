@@ -4,6 +4,3 @@ te_demo.egg-info/PKG-INFO
 te_demo.egg-info/SOURCES.txt
 te_demo.egg-info/dependency_links.txt
 te_demo.egg-info/top_level.txt
-te_demo/srv/__init__.py
-te_demo/srv/_add.py
-te_demo/srv/_sum.py

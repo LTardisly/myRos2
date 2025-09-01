@@ -8,7 +8,8 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
-
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -16,6 +17,8 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"srv/Add.srv"
 	"srv/Sum.srv"
+	"action/Move.action"
+        DEPENDENCIES std_msgs geometry_msgs	
 )
 
 install(PROGRAMS
@@ -39,7 +42,16 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
   RENAME sum_client
 )
-
+install(PROGRAMS
+  src/move_action_server.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME move_action_server
+)
+install(PROGRAMS
+  src/move_action_client.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME move_action_client
+)
 
 
 if(BUILD_TESTING)

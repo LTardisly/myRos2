@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/action/move__type_support.cpp.o"
+  "CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/action/move__type_support.cpp.o.d"
   "CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/srv/add__type_support.cpp.o"
   "CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/srv/add__type_support.cpp.o.d"
   "CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/srv/sum__type_support.cpp.o"
   "CMakeFiles/te_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/te_demo/srv/sum__type_support.cpp.o.d"
   "libte_demo__rosidl_typesupport_c.pdb"
   "libte_demo__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/te_demo/action/move__type_support.cpp"
   "rosidl_typesupport_c/te_demo/srv/add__type_support.cpp"
   "rosidl_typesupport_c/te_demo/srv/sum__type_support.cpp"
 )
